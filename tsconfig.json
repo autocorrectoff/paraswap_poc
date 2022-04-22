@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "removeComments": true,
+      "esModuleInterop": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "lib": ["es2020"],
+      "target": "es2019",
+      "baseUrl": "./",
+      "outDir": "./dist",
+      "sourceMap": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "skipLibCheck": true,
+      "typeRoots": ["./src/@types", "./node_modules/@types"]
+    }
+  }
+  
